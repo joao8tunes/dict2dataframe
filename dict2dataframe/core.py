@@ -11,10 +11,10 @@ Core operations.
 from typing import Union
 import pandas as pd
 
-from json2table.handlers import JSON
+from dict2dataframe.handlers import JSON
 
 
-def json2table(data: Union[dict|[dict]]) -> pd.DataFrame:
+def dict2dataframe(data: Union[dict | [dict]]) -> pd.DataFrame:
     """
     Convert JSON data into a Pandas DataFrame.
 

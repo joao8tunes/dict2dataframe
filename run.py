@@ -8,8 +8,8 @@ import pandas as pd
 import json
 import os
 
-from json2table.settings import setup_logger
-from json2table.handlers import JSON
+from dict2dataframe.settings import setup_logger
+from dict2dataframe.core import dict2dataframe
 
 setup_logger(__name__)
 
@@ -25,7 +25,7 @@ def main() -> None:
 
         with open(filepath, mode="rt", encoding="utf-8") as file:
             data = json.load(file)
-            df = JSON(data['values']).to_dataframe()
+            df = dict2dataframe(data['values'])
             df_list.append(df)
 
     df = pd.concat(df_list, ignore_index=True)

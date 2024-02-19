@@ -113,9 +113,9 @@ Which gives us the following dictionary:
 Which we can easily convert to a table:
 
 ```python
-from json2table.core import json2table
+from dict2dataframe.core import dict2dataframe
 
-df = json2table(data['values'])
+df = dict2dataframe(data['values'])
 print(df)
 ```
 

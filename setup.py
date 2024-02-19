@@ -16,13 +16,13 @@ with open("requirements.txt", mode="rt", encoding="utf-8") as f:
 all_requirements = list(set(requirements))
 
 setup(
-    name="json2table",
+    name="dict2dataframe",
     version="0.0.1",
     author="João Antunes",
     description="Python package for converting JSON data into tabular format.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/joao8tunes/json2table",
+    url="https://github.com/joao8tunes/dict2dataframe",
     packages=find_packages(),
     install_requires=all_requirements,
     python_requires=">=3.7",
