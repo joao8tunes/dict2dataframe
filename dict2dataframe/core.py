@@ -14,7 +14,7 @@ import pandas as pd
 from dict2dataframe.handlers import JSON
 
 
-def dict2dataframe(data: Union[dict | [dict]]) -> pd.DataFrame:
+def dict2dataframe(data: Union[dict, list]) -> pd.DataFrame:
     """
     Convert JSON data into a Pandas DataFrame.
 

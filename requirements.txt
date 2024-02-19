@@ -1,6 +1,7 @@
 coloredlogs
 openpyxl
 pandas
+pyarrow
 python-benedict
 python-Levenshtein
 xlrd
