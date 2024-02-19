@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="dict2dataframe",
-    version="0.0.1",
+    version="0.0.2",
     author="João Antunes",
     description="Python package for converting JSON data into tabular format.",
     long_description_content_type="text/markdown",
