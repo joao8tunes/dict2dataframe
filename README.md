@@ -1,4 +1,4 @@
-# JSON to Table Converter
+# Dict to Dataframe Converter
 
 This is a Python package designed to convert JSON data into tabular format, a common task in the daily work of engineers 
 and data scientists. With this tool, you can easily transform JSON data into a tabular representation, 
@@ -19,7 +19,7 @@ Following the minimum system requirements to execute the scripts:
 Before using this project, you must install its requirements by executing the following commands\*:
 
 ```console
-user@host:~$ cd json2table\
+user@host:~$ cd dict2dataframe\
 user@host:~$ python -m venv venv
 user@host:~$ venv\Scripts\activate
 (venv) user@host:~$ pip install -U pip setuptools wheel
@@ -42,7 +42,7 @@ Run the following command\* to generate the `.whl` binary file that can be uploa
 ## 2. Usage
 
 To use this package in your environment, just import the modules you want to use. Available modules are in 
-the `json2table/` directory. Below you can see a simple example of using this package:
+the `dict2dataframe/` directory. Below you can see a simple example of using this package:
 
 Importing our sample data from file:
 
