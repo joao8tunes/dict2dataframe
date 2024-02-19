@@ -4,7 +4,7 @@ This is a Python package designed to convert JSON data into tabular format, a co
 and data scientists. With this tool, you can easily transform JSON data into a tabular representation, 
 facilitating its analysis and manipulation. The codebase was initially inspired by a solution provided on 
 [Stack Overflow](https://stackoverflow.com/a/70791993/16109419) and later refined to address various bugs before being 
-published on PyPI.
+published on [PyPI](https://pypi.org/project/dict2dataframe/).
 
 
 ## 1. Requirements
