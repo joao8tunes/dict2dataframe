@@ -20,6 +20,7 @@ def main() -> None:
 
     df_list = []
 
+    # Converting list of dict to table:
     for file_name in os.listdir(data_dir):
         filepath = os.path.join(data_dir, file_name)
 
@@ -35,6 +36,8 @@ def main() -> None:
 
     # table_filepath = os.path.join(table_dir, "table.xlsx")
     # df.to_excel(table_filepath, index=False)
+
+    print(df)
 
 
 if __name__ == '__main__':
